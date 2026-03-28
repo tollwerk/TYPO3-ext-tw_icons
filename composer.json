@@ -1,0 +1,40 @@
+{
+    "name": "tollwerk/tw-icons",
+    "type": "typo3-cms-extension",
+    "description": "Tollwerk SVG-Icons",
+    "authors": [
+        {
+            "name": "Klaus Fiedler",
+            "role": "Developer",
+            "homepage": "https://tollwerk.de"
+        }
+    ],
+    "require": {
+        "typo3/cms-core": "^12|dev-main",
+        "typo3/cms-fluid-styled-content": "^12|dev-main"
+    },
+    "homepage": "https://tollwerk.de",
+    "license": "GPL-3.0-only / GPL-3.0-or-later3",
+    "keywords": [
+        "typo3",
+        "icons",
+        "svg",
+        "viewhelper"
+    ],
+    "support": {
+        "issues": "https://tollwerk.de"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tollwerk\\TwIcons\\": "Classes/"
+        }
+    },
+    "extra": {
+        "typo3/cms": {
+            "extension-key": "tw_icons"
+        },
+        "branch-alias": {
+            "dev-master": "12.0.x-dev"
+        }
+    }
+}

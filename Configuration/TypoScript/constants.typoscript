@@ -1,0 +1,6 @@
+plugin.tx_twicons {
+    settings {
+        # cat=plugin.tx_twicons/common/100; type=string; label=LLL:EXT:tw_icons/Resources/Private/Language/locallang_db.xlf:common.iconRootPath
+        iconRootPath = EXT:tw_icons/Resources/Public/Graphics
+    }
+}
