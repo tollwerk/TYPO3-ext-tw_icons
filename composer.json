@@ -24,6 +24,7 @@
         "docs": "https://github.com/tollwerk/TYPO3-ext-tw_icons"
     },
     "require": {
+        "php": ">= 7.4 < 8.5",
         "typo3/cms-core": "^13",
         "typo3/cms-fluid-styled-content": "^13"
     },
