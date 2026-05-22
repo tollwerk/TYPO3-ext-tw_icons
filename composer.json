@@ -24,7 +24,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Tollwerk\\TwViewhelpers\\": "Classes/"
+            "Tollwerk\\TwIcons\\": "Classes/"
         }
     },
     "extra": {
