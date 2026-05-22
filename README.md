@@ -1,5 +1,8 @@
 # tollwerk SVG-Icons for TYPO3
 
+[![TYPO3](https://img.shields.io/badge/TYPO3-13-green.svg)](https://get.typo3.org/version/12)
+[![TYPO3](https://img.shields.io/badge/License-GPL%203%20or%20later-lightgray.svg)](https://get.typo3.org/version/12)
+
 Provides a ViewHelper to render SVG-Icons from a configurable source folder.
 
 ## Installation
