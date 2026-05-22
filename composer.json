@@ -2,9 +2,12 @@
     "name": "tollwerk/tw-icons",
     "type": "typo3-cms-extension",
     "description": "Provide Icon-ViewHelper for including SVG icons in Fluid Templates",
-    "license": "GPL-2.0-or-later",
+    "license": "GPL-3.0-or-later",
     "keywords": [
-        "typo3"
+        "TYPO3",
+        "extension",
+        "article",
+        "news"
     ],
     "authors": [
         {
@@ -16,7 +19,9 @@
     ],
     "homepage": "https://tollwerk.de",
     "support": {
-        "issues": "https://tollwerk.de"
+        "issues": "https://github.com/tollwerk/TYPO3-ext-tw_icons/issues",
+        "source": "https://github.com/tollwerk/TYPO3-ext-tw_icons",
+        "docs": "https://github.com/tollwerk/TYPO3-ext-tw_icons"
     },
     "require": {
         "typo3/cms-core": "^13",
