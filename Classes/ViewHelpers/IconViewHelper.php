@@ -64,7 +64,6 @@ class IconViewHelper extends AbstractTagBasedViewHelper
     public function initializeArguments(): void
     {
         parent::initializeArguments();
-        $this->registerUniversalTagAttributes();
         $this->registerArgument('icon', 'string', 'Name of the icon', true);
         $this->registerArgument('type', 'string', 'Icon type (one of inline, outline or opaque)', false, 'inline');
         $this->registerArgument('theme', 'string', 'Icon theme', false, 'default');
