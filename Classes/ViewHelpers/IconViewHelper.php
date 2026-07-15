@@ -68,14 +68,15 @@ class IconViewHelper extends AbstractTagBasedViewHelper
         $this->registerArgument('type', 'string', 'Icon type (one of inline, outline or opaque)', false, 'inline');
         $this->registerArgument('theme', 'string', 'Icon theme', false, 'default');
         $this->registerArgument('debug', 'bool', 'If true, return debug information when icon could not be found', false, true);
+        $this->registerArgument('class', 'string', 'CSS class', false, '');
     }
 
     /**
      * Render the icon
      *
      * @return string Rendered icon
-     * @throws InvalidConfigurationTypeException
      * @throws Exception
+     *
      * @api
      */
     public function render(): string
