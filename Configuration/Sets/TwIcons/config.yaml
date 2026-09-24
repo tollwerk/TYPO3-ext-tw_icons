@@ -1,0 +1,4 @@
+name: tollwerk/tw-icons
+label: 'tollwerk SVG Icons'
+dependencies:
+  - typo3/fluid-styled-content
