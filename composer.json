@@ -27,7 +27,7 @@
         "php": ">= 7.4 < 8.5",
         "ext-dom": "*",
         "typo3/cms-core": "^14",
-        "typo3/cms-fluid-styled-content": "^14",
+        "typo3/cms-fluid-styled-content": "^14"
     },
     "autoload": {
         "psr-4": {
