@@ -1,0 +1,7 @@
+categories:
+  twIcons:
+settings:
+  twIcons.iconRootPath:
+    category: twIcons
+    type: string
+    default: 'EXT:tw_icons/Resources/Public/Graphics'
